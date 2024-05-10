@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #10101B;
+}
+.container{
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    width: 80%;
+    /* justify-content: center; */
+    text-align: center;
+    gap: 3%;
+}
+.pin-generator{
+    height: 570px;
+    width: 50%;
+    background-color: #222436;
+    padding: 30px;
+    /* text-align: center; */
+    margin-left: 20%;
+}
+.generate-btn{
+    margin-top: 140px;
+    height: 180px;
+    width: 180px;
+    padding: 40px;
+    border-radius: 50%;
+    border: 8px solid #39458C;
+    background-color: #495BC3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="text"]{
+    background-color: #3D4153;
+    padding: 10px 0px;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #858299;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type='text']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+.input-section{
+    height: 570px;
+    width: 50%;
+    background-color: #222436;
+    padding: 30px;
+    /* text-align: center; */
+    /* margin-right: 8%; */
+}
+.numbers{
+    margin: 30px 0;
+}
+.calc-body{
+
+}
+.calc-button-row{
+    width: 100%;
+}
+.button{
+    width: 20%;
+    background: #425062;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-btn{
+    border: none;
+    margin-top: 20px;
+    padding: 10px 90px;
+    border-radius: 5px;
+    background: #495BC3;
+    color: #fff;
+    font-size: 20px;
+    width: 62%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.action-left{
+    color: #FF3C5F;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.notify-section{
+    width: 30%;
+    margin: 0 auto;
+}
+.notify-section>p{
+    font-size: 18px;
+}
+.notify{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: none;
+}

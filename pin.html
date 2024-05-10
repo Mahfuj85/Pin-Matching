@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin Generator & Pin Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="pin-generator">
+                <input id="display-pin" type="text">
+                <button id="generate-pin" class="generate-btn">Generate Pin</button>
+            </div>
+            <div class="input-section">
+                <input id="typed-numbers" type="text">
+                <div class="numbers">
+                    <div id="key-pad" class="calc-body">
+                        <div class="calc-button-row">
+                            <div class="button">7</div>
+                            <div class="button">8</div>
+                            <div class="button">9</div>
+                        </div>
+                        <div class="calc-button-row">
+                            <div class="button">4</div>
+                            <div class="button">5</div>
+                            <div class="button">6</div>
+                        </div>
+                        <div class="calc-button-row">
+                            <div class="button">1</div>
+                            <div class="button">2</div>
+                            <div class="button">3</div>
+                        </div>
+                        <div class="calc-button-row">
+                            <div class="button">&lt;</div>
+                            <div class="button">0</div>
+                            <div class="button">C</div>
+                        </div>
+                        <div>
+                            <button id="submit-button" type="submit" class="submit-btn">Submit</button>
+                            <p class="action-left">3 try left</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="notify-section">
+                <p id="notify-failed" class="notify">❌ Pin didn't match, please try again</p>
+                <p id="notify-success" class="notify">✅ Pin matched... Secret door is opening for you</p>
+            </div>
+            <div class="audio">
+                <audio id="success-audio" src="./Audio/success.mp3"></audio>
+                <audio id="failed-audio" src="./Audio/failed.mp3"></audio>
+            </div>
+
+
+    </div>
+
+    <script src="pin.js"></script>
+</body>
+</html>
